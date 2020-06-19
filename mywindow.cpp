@@ -11,6 +11,7 @@
 MyWindow::MyWindow(QWidget *parent) :
     QMainWindow(parent)
 {
+
     this->setFixedSize(800,600);
     //在选关界面添加返回按钮
     MyButton* back_btn=new MyButton(":/D:/BaiduNetdiskDownload/backbutton-2.jpg");

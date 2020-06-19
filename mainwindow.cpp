@@ -8,6 +8,7 @@
 #include "mybutton.h"
 #include "mywindow.h"
 #include <QTimer>
+#include "config.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -15,6 +16,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     this->setFixedSize(800,600);
     ui->setupUi(this);
+
 
     //在开始界面添加开始游戏按钮
     MyButton* btn=new MyButton(":/D:/BaiduNetdiskDownload/button.jpg");
@@ -60,3 +62,4 @@ void MainWindow::paintEvent(QPaintEvent *){
     QPixmap pixmap(":/D:/BaiduNetdiskDownload/img_bg_level_2.jpg");
     painter.drawPixmap(0,0,this->width(),this->height(),pixmap);
 }
+
