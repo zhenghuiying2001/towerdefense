@@ -1,6 +1,10 @@
 #-------------------------------------------------
 #
+<<<<<<< HEAD
 # Project created by QtCreator 2020-06-07T17:14:26
+=======
+# Project created by QtCreator 2020-05-28T12:02:45
+>>>>>>> 7522dc93025c53d4ed9281b941da872fbea9bb7f
 #
 #-------------------------------------------------
 
@@ -28,25 +32,39 @@ SOURCES += \
         mainwindow.cpp \
     mybutton.cpp \
     mywindow.cpp \
+<<<<<<< HEAD
     thirdwindow.cpp \
     secondwindow.cpp \
     heroplane.cpp \
     bullet.cpp \
     map.cpp
+=======
+    tower.cpp
+>>>>>>> 7522dc93025c53d4ed9281b941da872fbea9bb7f
 
 HEADERS += \
         mainwindow.h \
     mybutton.h \
     mywindow.h \
+<<<<<<< HEAD
     thirdwindow.h \
     secondwindow.h \
     config.h \
     heroplane.h \
     bullet.h \
     map.h
+=======
+    tower.h
+>>>>>>> 7522dc93025c53d4ed9281b941da872fbea9bb7f
 
 FORMS += \
         mainwindow.ui
 
 RESOURCES += \
     res.qrc
+<<<<<<< HEAD
+=======
+
+DISTFILES += \
+    D:/2345Downloads/button-2.jpg
+>>>>>>> 7522dc93025c53d4ed9281b941da872fbea9bb7f
